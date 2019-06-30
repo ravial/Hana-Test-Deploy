@@ -20,7 +20,7 @@ To actually deploy, do the below steps.  Please run these steps individually - t
 
 ```bash
 chmod u+x *.sh
-./vnet-inf
+./vnet-inf.sh
 ./linuxjumpbox-inf.sh #(if you want a linux jumpbox to ssh to)
 ./jb-inf.sh #(if you want a windows jumpbox to RDP to)
 ./iscsi-inf.sh
